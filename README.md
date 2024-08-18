@@ -1,5 +1,5 @@
-# Nome do projeto
-Trabalho de Desenvolcimento de Software 2024/2
+# Trabalho de Desenvolcimento de Software 2024/2
+Descrição
 
 ## Integrantes
 * Augusto Fuscaldi Cerezo
@@ -7,10 +7,6 @@ Trabalho de Desenvolcimento de Software 2024/2
 
 ## Orientadores
 * Cristiano de Macêdo Neto
-
-
-
-# Descrição do Sistema de Matrículas da Universidade
 
 ## Histórias de Usuário
 
