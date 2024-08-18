@@ -10,21 +10,22 @@ Descrição
 
 ## Histórias de Usuário
 
-### História de Usuário 1: Matricular-se em Disciplinas
+### História de Usuário, Aluno 1: Matricular-se em Disciplinas
 **Como** aluno,  
-**Quero** me matricular em até 4 disciplinas obrigatórias e em mais 2 disciplinas optativas durante o período de matrículas,  
+**Quero** me matricular nas disciplinas obrigatórias e opitativas,  
 **Para que** eu possa escolher as disciplinas que mais me interessam e avançar no meu curso.
 
 **Critérios de Aceitação:**
 - O sistema deve permitir que o aluno se matricule em no máximo 4 disciplinas obrigatórias e 2 optativas.
 - O aluno deve receber uma confirmação da matrícula após a submissão.
 - O aluno deve poder visualizar uma lista das disciplinas em que está matriculado.
+- O sistema deverá aceitar matriculas apenas durante o período de matrícula.
 
 ---
 
-### História de Usuário 2: Cancelar Matrícula
+### História de Usuário, Aluno 2: Cancelar Matrícula
 **Como** aluno,  
-**Quero** cancelar matrículas feitas anteriormente durante o período de matrículas,  
+**Quero** cancelar matrículas feitas durante o período de matrículas,
 **Para que** eu possa modificar minha escolha de disciplinas caso necessário.
 
 **Critérios de Aceitação:**
@@ -34,7 +35,7 @@ Descrição
 
 ---
 
-### História de Usuário 3: Consultar Disciplinas Disponíveis
+### História de Usuário, Aluno 3: Consultar Disciplinas Disponíveis
 **Como** aluno,  
 **Quero** consultar quais disciplinas estão disponíveis para matrícula,  
 **Para que** eu possa tomar uma decisão informada sobre quais disciplinas me matricular.
@@ -46,17 +47,17 @@ Descrição
 ---
 
 ### História de Usuário 4: Receber Notificação de Cobrança
-**Como** sistema de matrículas,  
-**Quero** notificar o sistema de cobranças sobre as disciplinas em que os alunos estão matriculados,  
-**Para que** os alunos possam ser cobrados pelas disciplinas do semestre.
+**Como** aluno,  
+**Quero** receber uma notificação sobre as cobranças das disciplinas em que estou matriculado.
+**Para que** eu possa saber o quanto estou sendo cobrado e realizar o pagamento de forma rápida.
 
 **Critérios de Aceitação:**
-- O sistema deve enviar uma notificação ao sistema de cobranças após o período de matrículas se encerrar.
+- O sistema de matrículas deve enviar uma notificação ao sistema de cobranças após o período de matrículas se encerrar.
 - A notificação deve incluir detalhes sobre as disciplinas em que cada aluno está matriculado.
 
 ---
 
-### História de Usuário 5: Consultar Alunos Matriculados
+### História de Usuário, Professor 1: Consultar Alunos Matriculados
 **Como** professor,  
 **Quero** consultar a lista de alunos matriculados em minhas disciplinas,  
 **Para que** eu possa conhecer os alunos que estarão participando das minhas aulas.
@@ -67,7 +68,7 @@ Descrição
 
 ---
 
-### História de Usuário 6: Gerar Currículo do Semestre
+### História de Usuário, Secretário 1: Gerar Currículo do Semestre
 **Como** secretário,  
 **Quero** gerar o currículo para cada semestre,  
 **Para que** as disciplinas e cursos estejam organizados e disponíveis para matrícula dos alunos.
@@ -78,7 +79,7 @@ Descrição
 
 ---
 
-### História de Usuário 7: Manter Informações de Disciplinas, Professores e Alunos
+### História de Usuário, Secretário 2: Manter Informações de Disciplinas, Professores e Alunos
 **Como** secretário,  
 **Quero** manter as informações sobre disciplinas, professores e alunos,  
 **Para que** os dados estejam sempre atualizados e corretos para o gerenciamento das matrículas.
@@ -89,7 +90,7 @@ Descrição
 
 ---
 
-### História de Usuário 8: Atualizar Status das Disciplinas
+### História de Usuário, Secretário 3: Atualizar Status das Disciplinas
 **Como** secretário,  
 **Quero** atualizar o status das disciplinas (ativa ou cancelada) com base no número de matrículas,  
 **Para que** o currículo do semestre reflita corretamente quais disciplinas estarão disponíveis.
