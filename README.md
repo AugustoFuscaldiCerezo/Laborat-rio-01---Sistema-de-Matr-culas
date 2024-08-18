@@ -1,5 +1,6 @@
 # Trabalho de Desenvolvimento de Software 2024/2
-Descrição
+Projetar um Sistema de Matrículas para uma Universidade.
+
 
 ## Integrantes
 * Augusto Fuscaldi Cerezo
