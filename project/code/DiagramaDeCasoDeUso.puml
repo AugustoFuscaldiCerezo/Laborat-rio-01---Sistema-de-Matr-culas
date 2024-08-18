@@ -1,0 +1,31 @@
+@startuml
+left to right direction
+
+actor "Aluno" as aluno
+actor "Professor" as professor
+actor "Secretaria" as secretaria
+actor "Sistema de Cobranças" as sistema_cobrancas
+
+rectangle "Sistema de Matrículas" {
+
+  aluno -- (Matricular em Disciplinas)
+  aluno -- (Cancelar Matrícula)
+  
+  professor -- (Consultar Alunos Matriculados em Disciplinas)
+  
+  secretaria -- (Gerar Currículo)
+  secretaria -- (Manter Informações sobre Disciplinas, Professores e Alunos)
+  
+  aluno -- (Receber Notificação de Matrícula)
+  sistema_cobrancas -- (Receber Notificação de Matrícula)
+  
+
+  (Matricular em Disciplinas) .> (Verificar Número Máximo de Alunos para Disciplina) : include
+  (Cancelar Matrícula) .> (Atualizar Número de Alunos Inscritos em Disciplina) : include
+  (Gerar Currículo) <. (Gerar Informações de Disciplinas, Professores e Alunos): extend
+  (Acessar Informações sobre Disciplinas, Professores e Alunos) <. (Atualizar Informações) : extend
+  (Matricular em Disciplinas) .> (Atualizar Status de Matrículas) : include
+
+}
+
+@enduml
