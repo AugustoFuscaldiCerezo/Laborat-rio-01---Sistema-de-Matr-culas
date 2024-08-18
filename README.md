@@ -1,4 +1,4 @@
-# Trabalho de Desenvolcimento de Software 2024/2
+# Trabalho de Desenvolvimento de Software 2024/2
 Descrição
 
 ## Integrantes
